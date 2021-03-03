@@ -67,12 +67,11 @@ For Example: is31Flavors(originalFlavors) will return true if your code is worki
 */
 
 function is31Flavors(arr){
-   if (arr.length == 31) {
-         Boolean(true);
+   if (arr.length === 31) {
+         return true;
      } else {
-         Boolean(false);
+         return false;
      };
-    return Boolean();
 };
 
 console.log(is31Flavors(originalFlavors));
